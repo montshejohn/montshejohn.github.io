@@ -4,6 +4,7 @@
 
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="styling.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -11,214 +12,49 @@
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <title>portfolio/web-page</title>
         <script>
-            $("document").ready(function() {
-                $("#show").click(function() {
-                    $("#about").animate({
-                        left: '350px',
-                        opacity: '0.9',
-                        height: '100%',
-                        width: '100%'
-                    });
-                });
-            });
-            $("document").ready(function() {
-                $("#home").click(function() {
-                    $("#transpanrency").fadeOut();
-                    $("#transpanrency").fadeOut("slow");
-                    $("#transpanrency").fadeOut(3000);
 
-                });
-            });
         </script>
     </head>
     <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0.7em;
-            width: 16%;
-            background-color: white;
-            position: fixed;
-            height: 100%;
-            overflow: auto;
+        @font-face {
+            font-family: myfonts;
+            src: url('fonts.otf');
         }
-        
-        #section3 {
-            border: 3px;
-            margin: none;
-            padding: 0.2em;
-            width: 20%;
-            background-color: white;
-            position: bottom;
-            height: 10%;
-            opacity: 0.9;
-            overflow: auto;
-        }
-        
-        body {
-            background: url('wood.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 1.9;
-        }
-        
-        li a {
-            display: block;
-            color: black;
-            padding: 8px 13px;
-            text-decoration: none;
-        }
-        
+
+
         h1 {
-            text-align: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-variant: small-caps;
-            font-weight: 600;
-            font-size: 100%;
-            color: white;
-        }
-        
-        li a.default {
-            background-color: orange;
+            padding-top: 15%;
+            font-size: 250px;
             color: black;
-        }
-        
-        img {
-            align-content: center;
-        }
-        
-        .text {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-variant: small-caps;
-            font-weight: 600;
-            font-size: 65%;
-            padding-right: 12%;
-        }
-        
-        h2 {
-            color: white;
-        }
-        
-        .colo {
-            color: whitesmoke;
-            font-family: Courier New, Courier, monospace;
-        }
-        
-        p {
             text-align: center;
-            font-size: 34px;
-            padding-left: 34%;
-            color: whitesmoke;
-            opacity: 0.7;
-            padding-top: 14%;
-        }
-        
-        .preS {
-            text-align: center;
-            font-size: 24px;
-            padding-right: 33%;
-            color: black;
-            opacity: 0.2;
-            width: 50%;
-        }
-        
-        #sidepnl {
-            background: url(".jpg");
-            background-repeat: no-repeat;
-            background-size: 25px;
-            border: 2.2px none;
-            color: whitesmoke;
-            opacity: 0.4;
-            background-color: brown;
-        }
-        
-        .resp {
-            position: fixed;
-            width: 25%;
-            image-orientation: center;
-            height: 25%;
-            position: fixed;
-            right: 0px;
-            width: 300px;
-            padding: 1px;
-        }
-        
-        .endg {
-            text-align: center;
-            font-size: 32px;
-            opacity: 0.6;
-            color: white;
+            font-weight: 50%;
+            font-family: myfonts;
         }
     </style>
 
     <body>
-        <div class="row ">
+        <div class="flexy">
+            <div>
 
-            <ul id="sidepnl">
-                <li>
-                    <a href="https://montshejohn.github.io" class="default">HOME</a>
-                </li>
-                <li>
-                    <a class="colo" id="show">ABOUT</a>
-                </li>
-                <li>
-                </li>
-                <li>
-                    <a href="https://montshejohn.github.io/blog" class="colo"> BLOGS</a>
-                </li>
-                <li>
-                    <div id="transpanrency">
-                    </div>
-                    <div style="font-size:44px; margin-left:0%;padding:18px;height:10px; ">
-                        <h3>CONTACT ME HERE</h3>
-                        <i href="" class="fa fa-twitter">
-    
-</i>
-                        <i href="https://codepen.io/montshejohn/" class="fa fa-codepen">
-    
-</i>
-
-                        <i href "https://medium.com/@mokgokongjohannes" class="fa fa-medium">
-</i>
-
-                        <i href='' class="fa fa-tumblr-square btn btn-primary">
-    </i>
-                        <i href "https://www.instagram.com/mxntshejxhn/" class="fa fa-instagram btn btn-primary">
-    </i>
-                        <i class="fa fa-pinterest btn btn-primary">
-    </i> <i class="fa fa-gmail btn btn-primary">
-    </i>
-                        <i href="https://plus.google.com" class="fa fa-google-plus  btn-danger">
-    </i>
-                        <i href="https://github.com/montshejohn" class="dropdown fa fa-github btn btn-">
-                        </i>
-                        <br>
-
-                        <p4>
-                            my hobbies are
-                        </p4>
-                    </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </li>
-        </ul>
-        </div>
-        <div class="" style="margin-left:5%;padding:1px 16px;height:1000px; font-size:100px;">
-            <h1 class="text" sytle="font-size:34px">mxntshe jxhn </h1>
-            <div class="row" id="about">
-                <img class="img-circle resp " src="ME.jpg">
-                <section class="col-md-8 endg">
+                <button class="hom">Home</button>
             </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <p>HI there my name Johannes Mokgokong. I am a Learner TCG.. I joined TCG in July 2017 and the experience so far is awesome. Html 5, CSS, Bootstrap and JavaScript are some of the things I spend my time learning about.. Besides that I
-                        spend most of my time doing typeraces and playing chess,writting blogs,reading blogs.</p>
-                    <div class="row">
-                    </div>
-                </div>
+            <div>
+                <button class="abou">About</button>
+            </div>
+            <div>
+                <button class="blo">Blog</button>
+            </div>
+            <div>
+                <button class="con">contact</button>
+            </div>
+        </div>
+        <div class="jumbtron text-center">
+            <h1 class="headr">Montshe_John</h1>
 
+
+
+
+        </div>
     </body>
 
     </html>
