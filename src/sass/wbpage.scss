@@ -1,5 +1,6 @@
 $primary-color: black;
 $secondary: whitesmoke;
+$section-padding: 23px;
 
 body {
   position: relative;
@@ -8,7 +9,7 @@ body {
 .navbar-inverse {
   margin: 1rem;
   background-color: $secondary;
-  border-radius: 45px;
+  border-radius: 55px;
 }
 
 .container-fluid {
@@ -18,6 +19,10 @@ body {
 @font-face {
   font-family: myfonts;
   src: url("../src/fonts/war.TTF");
+}
+@font-face {
+  font-family: myfont1;
+  src: url("../src/fonts/fonts.otf");
 }
 
 a {
@@ -44,10 +49,16 @@ div.col-sm-12 div {
 }
 
 #section1 {
-  padding-top: 53px;
-  font-size:32px;
+  font-size: 152px;
   color: $primary-color;
   background-color: $secondary;
+}
+.name {
+  padding-top: 534px;
+  font-family: myfont1;
+  text-overflow:none;
+  text-shadow: 3px 3px 3px lightsalmon;
+  font-size: 299px;
 }
 
 #section2 {
