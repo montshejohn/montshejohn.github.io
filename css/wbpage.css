@@ -1,0 +1,67 @@
+body {
+  position: relative; }
+
+.navbar-inverse {
+  margin: 1rem;
+  background-color: whitesmoke;
+  border-radius: 45px; }
+
+.container-fluid {
+  margin: 1ch; }
+
+@font-face {
+  font-family: myfonts;
+  src: url("../src/fonts/war.TTF"); }
+
+a {
+  width: 150px;
+  color: red;
+  font-size: 44px;
+  font-family: myfonts;
+  margin: 55px; }
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  margin: 3px;
+  justify-content: center;
+  height: 44px;
+  color: black; }
+
+div.col-sm-12 div {
+  height: 1100px;
+  font-size: 28px; }
+
+#section1 {
+  padding-top: 53px;
+  font-size: 32px;
+  color: black;
+  background-color: whitesmoke; }
+
+#section2 {
+  padding-top: 53px;
+  color: black;
+  background-color: whitesmoke; }
+
+#section3 {
+  padding-top: 53px;
+  color: black;
+  background-color: whitesmoke; }
+
+#section41 {
+  color: black;
+  padding-top: 53px;
+  background-color: whitesmoke; }
+
+#section42 {
+  color: black;
+  padding-top: 53px;
+  background-color: whitesmoke; }
+
+@media screen and (max-width: 810px) {
+  #section1,
+  #section2,
+  #section3,
+  #section41,
+  #section42 {
+    margin-left: 150px; } }
