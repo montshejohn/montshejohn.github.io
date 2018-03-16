@@ -21,7 +21,7 @@ basic knowledge of react which means u must atleast the basics of Html,Javascrip
 
 you can choose to work on react locally on your machine or on codepen, if you choose to work locally and you are
 
-not really sure on how,to start you can visit this <link>https://reactjs.org/tutorial/tutorial.html</link>
+not really sure on how,to start you can visit this [Title](https://reactjs.org/tutorial/tutorial.html)
 
 theres are a create my-app package there that you can install it will set up a proper react working environment for you,
 
@@ -35,7 +35,7 @@ for a quick layout you can use react-bootstrap this sorts out most stuff for you
 
 you can install react-bootstrap like this "npm --save react-bootstrap" or go to this link to read their docs
 
-and get a feel of how things work <link>https://react-bootstrap.github.io/components/forms/</link>
+and get a feel of how things work [Title](https://react-bootstrap.github.io/components/forms/)
 
 that saves ups most of your time
 
@@ -47,4 +47,4 @@ specifications
 
 view my code here and see how i worked around this challenge
 
-<link>https://github.com/montshejohn/react/tree/master/markdown-previewer/my-app/src</link>
+[Title](https://github.com/montshejohn/react/tree/master/markdown-previewer/my-app/src)
