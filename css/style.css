@@ -94,6 +94,12 @@ div.col-sm-12 div {
     background-color: whitesmoke;
 }
 
+#section4 {
+    padding-top: 53px;
+    color: black;
+    background-color: whitesmoke;
+}
+
 .img {
     width: inherit;
     padding-top: 284px;
@@ -108,11 +114,6 @@ div.col-sm-12 div {
     background-color: whitesmoke;
 }
 
-#section42 {
-    color: black;
-    padding-top: 53px;
-    background-color: whitesmoke;
-}
 
 @media screen and (max-width: 810px) {
     #section1,

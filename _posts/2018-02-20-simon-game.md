@@ -1,7 +1,7 @@
 ---
-Post:
-Date:
-Title:
+Post:Post
+Date:2018-02-20
+Title:"Simon game"
 Categories:
 ---
 
@@ -21,8 +21,7 @@ To better make this work i used a math.floor and math.random multiplied by four 
 now that we have a random number we store elements that we need to light up in an array.
 We can now access the element at the index of the random number we got and apply and light that element up,in order to create light on and off effect I used opacity heres how the code looks like
 
-```
-    function showColor() {
+    ``` function showColor() {
         var randomno = Math.floor(Math.random() * 4);
         aI.push(arr[randomno]);
         var i = 0;
