@@ -1,8 +1,7 @@
 ---
-
-Type:Post
-Title:
-Date:
+Layout: Post
+Title: "Building a camper leader board"
+Date: 21-03-2018
 Categories:
 ---
 
