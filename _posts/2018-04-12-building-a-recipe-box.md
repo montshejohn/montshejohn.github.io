@@ -5,7 +5,8 @@ Date: 12-04-2018
 Categories:
 ---
 
-#Introduction
+# Introduction
+
 Building a react recipe box, the forth react project on free code camp, I must say this project
 
 is one of the most challenging so far, but after completing it I have learned so much from this
@@ -30,7 +31,7 @@ collapse showing the ingredients.
 
 React Bootstrap came in use full here I use the Modal , Form and buttons for this project
 
-![this is how the display is  ](display2.png)
+![this is how the display is  ](https://raw.githubusercontent.com/montshejohn/montshejohn.github.io/master/_posts/display2.png)
 
 ---
 
@@ -61,7 +62,7 @@ enters in her recipes and ingredients,that data is stored in the browser and can
 
 ---
 
-![this is how the display is  ](display1.png)
+![this is how the display is  ](https://raw.githubusercontent.com/montshejohn/montshejohn.github.io/master/_posts/display1.png)
 
 ---
 
@@ -74,3 +75,12 @@ When you working with react its actually important to use state
 avoid global variables, you just use state.
 
 this.sestate allows the component to re render every time the state changes this is extremely use full.
+
+Check out my code on githup
+[Github link to repo](https://github.com/montshejohn/react/tree/master/recipe-box/my-app/src)
+
+# Useful links
+
+1.  [react-bootstrap](https://react-bootstrap.github.io/)
+2.  [Js local storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+3.  [creat react app](https://reactjs.org/tutorial/tutorial.html)
