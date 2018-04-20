@@ -1,7 +1,7 @@
 ---
 Layout: Post;
-Date:18-04-2018
-Title:"javascript native functions "
+Date: 18-04-2018
+Title: "javascript native functions"
 Categories:
 ---
 
