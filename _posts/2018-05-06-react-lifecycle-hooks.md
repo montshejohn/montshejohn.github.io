@@ -1,7 +1,7 @@
 ---
 Layout: Post
-Date: 2018-05-
-Title:"Reactjs Components"
+Date: 2018-05-06
+Title: "Reactjs Components"
 Categories:
 ---
 
