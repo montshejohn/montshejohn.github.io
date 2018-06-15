@@ -6,7 +6,6 @@ categories:
 ---
 
 
-
 observations
 
 learner and fellow student at TCG I'll be writing about my observations so far, what I learned, and how we learn as free code camp
