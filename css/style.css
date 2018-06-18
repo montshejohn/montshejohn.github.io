@@ -1,126 +1,148 @@
-body {
-    position: relative;
+.grid {
+  display: block;
 }
-
-.navbar-inverse {
-    margin: 1rem;
-    background-color: whitesmoke;
-    border-radius: 55px;
-}
-
-.container-fluid {
-    margin: 1ch;
-}
-
 @font-face {
-    font-family: myfonts;
-    src: url("../src/fonts/war.TTF");
+  font-family: extenalFont;
+  src: url("../src/fonts/Hellgrazer.otf");
 }
-
 @font-face {
-    font-family: myfont1;
-    src: url("../src/fonts/fonts.otf");
+  font-family: extenalFont2;
+  src: url("../src/fonts/Vlump.ttf");
+}
+@font-face {
+  font-family: extenalFont3;
+  src: url("../src/fonts/The\ Blacklist.ttf");
+}
+@font-face {
+  font-family: extenalFont4;
+  src: url("../src/fonts/Quantify\ Bold\ v2.6.ttf");
 }
 
-.tag {
-    font-family: myfonts;
-    font-size: 95px;
-    text-overflow: none;
-    text-shadow: 3px 3px 3px red;
+img {
+  max-width: 200px;
 }
-
-.skills {
-    font-family: myfonts;
-    font-size: 24px;
-    text-align: right;
-    padding-top: 83px;
-    padding-left: 13px;
-    text-shadow: 1px 1px 1px black;
+.menu a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 19px;
+  font-family: extenalFont2;
+  background: rgba(10, 4, 0, 0.411);
 }
-
-a {
-    width: 150px;
-    color: red;
-    font-size: 44px;
-    font-family: myfonts;
-    margin: 55px;
+.menu {
+  display: grid;
+  margin: 0;
+  grid-gap: 10px;
+  align-content: center;
+  padding: 0;
+  font-family: extenalFont;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
-
-.blog {
-    padding-top: 68px;
-    font-size: 24px;
-    text-align: right;
-    text-shadow: 1px 1px 1px black;
-    font-family: myfonts;
+.top {
+  background: black
+    url("https://source.unsplash.com/collection/1102658/1600x900");
+  transform: translate3d(2px, 3px, 3px);
+  opacity: 1;
+  grid-area: "firstSection firstSection fistSection";
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) l;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-area: firstSection;
+  justify-content: center;
+  align-content: center;
+  padding: 50px;
 }
-
-.bar {
-    display: flex;
-    flex-direction: row;
-    margin: 3px;
-    justify-content: center;
-    height: 44px;
-    color: black;
-}
-
-div.col-sm-12 div {
-    height: 1100px;
-    font-size: 28px;
-}
-
 #section1 {
-    font-size: 152px;
-    color: black;
-    background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  grid-area: firstSection;
+  justify-content: start;
+  align-content: center;
 }
-
-.name {
-    padding-top: 14px;
-    font-family: myfont1;
-    text-overflow: none;
-    text-shadow: 3px 3px 3px lightsalmon;
-    font-size: 299px;
+#section1 > * h1 {
+  font-family: extenalFont;
+  font-size: 100px;
+  color: rgba(0, 0, 0, 0.623);
+  font-weight: 300px;
+  margin-top: 25rem;
 }
-
+#section1 > * img {
+  display: block;
+  height: 120px;
+  border: 1px solid white;
+  z-index: 99;
+  position: absolute;
+  border-radius: 50%;
+}
+.firstSection {
+  grid-area: firstSection;
+  min-height: 800px;
+}
 #section2 {
-    padding-top: 53px;
-    color: black;
-    background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px 1fr));
+}
+#section2 > * p {
+  margin-top: 15rem;
+  font-size: 34px;
+  padding: 0;
+  font-family: extenalFont4;
+}
+
+#section2 > * h1 {
+  font-size: 34px;
+  font-family: extenalFont4;
+}
+.secondSection {
+  grid-area: firstSection;
+  min-height: 800px;
+}
+thirdSection {
+  grid-area: firstSection;
+  min-height: 800px;
 }
 
 #section3 {
-    padding-top: 53px;
-    color: black;
-    background-color: whitesmoke;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(50px 1fr));
+}
+#section3 > * p {
+  display: grid;
+  justify-content: center;
+  margin-top: 5rem;
+  align-content: center;
+  text-transform: capitalize;
+  font-size: 34px;
+  padding: 0;
+  font-family: extenalFont4;
 }
 
-#section4 {
-    padding-top: 53px;
-    color: black;
-    background-color: whitesmoke;
+#section3 > * h1 {
+  justify-content: center;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-family: extenalFont2;
+}
+.secondSection {
+  grid-area: firstSection;
+  min-height: 800px;
+}
+.section44 {
+  grid-area: firstSection;
+  min-height: 800px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.img {
-    width: inherit;
-    padding-top: 284px;
-    height: 594px;
-    border: 0px solid black;
-    border-radius: 33%;
-}
-
-#section4 {
-    color: black;
-    padding-top: 53px;
-    background-color: whitesmoke;
-}
-
-
-@media screen and (max-width: 810px) {
-    #section1,
-    #section2,
-    #section3,
-    #section41,
-    #section42 {
-        margin-left: 150px;
-    }
+.section44 > p {
+  justify-content: center;
+  font-size: 34px;
+  text-transform: uppercase;
+  font-family: extenalFont2;
 }
