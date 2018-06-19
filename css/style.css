@@ -1,3 +1,7 @@
+body{
+  color:none;
+  background: linear-gradient(0.25turn, #c0ccd1, #ebf8e1, #f69c3c0e);
+}
 .grid {
   display: block;
 }
@@ -19,7 +23,7 @@
 }
 
 img {
-  max-width: 200px;
+  max-width: 500px;
 }
 .menu a {
   display: block;
@@ -41,10 +45,10 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 .top {
-  background: black
+  background: rgba(238, 233, 233, 0)
     url("https://source.unsplash.com/collection/193055/1600x900");
   transform: translate3d(2px, 3px, 3px);
-  opacity: 1;
+  opacity:1;
   grid-area: "firstSection firstSection fistSection";
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) l;
@@ -54,6 +58,7 @@ img {
   grid-area: firstSection;
   justify-content: center;
   align-content: center;
+  height: 100%;
   padding: 50px;
 }
 #section1 {
@@ -65,22 +70,25 @@ img {
 }
 #section1 > * h1 {
   font-family: extenalFont;
-  font-size: 100px;
-  color: rgba(0, 0, 0, 0.623);
+  font-size: 200px;
+  color:black; 
+  text-decoration:underline ;
+  text-decoration-color: rgba(27, 1, 1, 0.253);
   font-weight: 300px;
   margin-top: 25rem;
 }
 #section1 > * img {
   display: block;
-  height: 120px;
-  border: 1px solid white;
   z-index: 99;
-  position: absolute;
   border-radius: 50%;
+  margin-left: 40%;
+  margin-bottom: 20%;
+
 }
 .firstSection {
   grid-area: firstSection;
-  min-height: 800px;
+  min-height: 300%;
+  z-index:1000 ;
 }
 #section2 {
   display: grid;
@@ -89,13 +97,16 @@ img {
 #section2 > * p {
   margin-top: 15rem;
   font-size: 34px;
+  color:black;
   padding: 0;
   font-family: extenalFont4;
 }
 
 #section2 > * h1 {
   font-size: 34px;
-  font-family: extenalFont4;
+  color:black;
+  text-transform: uppercase;
+  font-family: extenalFont2;
 }
 .secondSection {
   grid-area: firstSection;
@@ -108,6 +119,7 @@ thirdSection {
 
 #section3 {
   display: grid;
+  color:black;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(50px 1fr));
 }
@@ -117,12 +129,14 @@ thirdSection {
   margin-top: 5rem;
   align-content: center;
   text-transform: capitalize;
+  color:black;
   font-size: 34px;
   padding: 0;
   font-family: extenalFont4;
 }
 
 #section3 > * h1 {
+  color:black;
   justify-content: center;
   font-size: 34px;
   text-transform: uppercase;
@@ -130,18 +144,27 @@ thirdSection {
 }
 .secondSection {
   grid-area: firstSection;
+  color:black;
   min-height: 800px;
 }
-.section44 {
-  grid-area: firstSection;
+#section4 {
   min-height: 800px;
+  color:black;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-template-areas: inherit;
 }
 
-.section44 > p {
+#section4 > p {
   justify-content: center;
+  color:black;
+  font-size: 34px;
+  font-family: extenalFont4;
+}
+#section4 > h1 {
+  justify-content: center;
+  color:black;
   font-size: 34px;
   text-transform: uppercase;
   font-family: extenalFont2;
