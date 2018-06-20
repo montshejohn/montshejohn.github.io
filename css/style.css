@@ -70,7 +70,7 @@ img {
 }
 #section1 > * h1 {
   font-family: extenalFont;
-  font-size: 200px;
+  font-size: 32vw;
   color: black;
   text-decoration: underline;
   text-decoration-color: rgba(27, 1, 1, 0.253);
@@ -102,7 +102,7 @@ img {
 }
 
 #section2 > * h1 {
-  font-size: 34px;
+  font-size: 12vmin;
   color: black;
   text-transform: uppercase;
   font-family: extenalFont2;
