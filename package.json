@@ -2,7 +2,7 @@
   "title": "Resume",
   "name": "resume",
   "version": "0.0.1",
-  "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+  "description": "",
   "keywords": [
     "css",
     "sass",
@@ -11,19 +11,19 @@
     "theme",
     "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/resume",
+  "homepage": "",
   "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
+    "url": "",
     "email": "feedback@startbootstrap.com"
   },
   "license": "MIT",
-  "author": "Start Bootstrap",
+  "author": "montshejohn",
   "contributors": [
-    "David Miller (http://davidmiller.io/)"
+    ""
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BlackrockDigital/startbootstrap-resume.git"
+    "url": ""
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.3.1",
