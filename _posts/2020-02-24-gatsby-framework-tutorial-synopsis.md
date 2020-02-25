@@ -5,9 +5,9 @@ Title: "synopsis of the Gatsby.js tutorial "
 Categories:
 ---
 
-#Thinking of building sites using a cool framework based on react ??
+# Thinking of building sites using a cool framework based on react ??
 
-###Gatsby is a free and open-source framework based on React that helps developers build blazing-fast websites and apps
+### Gatsby is a free and open-source framework based on React that helps developers build blazing-fast websites and apps
 [source to the official docs] (https//:gatsbyjs.org)
 
 In this post, we explore the building blocks of using Gatsby js to see how it could help 
