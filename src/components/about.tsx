@@ -27,26 +27,26 @@ export function About() {
   const highlights = [
     {
       icon: Code,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable, and efficient code",
+      title: "Full-Stack Development",
+      description: "Building scalable web and mobile applications with modern technologies",
       gradient: "from-white to-gray-300",
     },
     {
       icon: Lightbulb,
-      title: "Innovation",
-      description: "Always exploring new technologies and methodologies",
+      title: "Problem Solving",
+      description: "Turning complex requirements into clean, maintainable solutions",
       gradient: "from-gray-300 to-gray-500",
     },
     {
       icon: Users,
       title: "Collaboration",
-      description: "Strong team player with excellent communication skills",
+      description: "Working across product and engineering teams to deliver results",
       gradient: "from-gray-500 to-gray-700",
     },
     {
       icon: Zap,
-      title: "Performance",
-      description: "Optimizing applications for speed and user experience",
+      title: "Cloud & DevOps",
+      description: "Growing expertise in AWS and DevOps practices for scalable deployments",
       gradient: "from-gray-700 to-gray-900",
     },
   ]
@@ -60,8 +60,9 @@ export function About() {
         <div className={`text-center mb-16 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}>
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text font-display">About Me</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto text-pretty">
-            I'm a passionate full-stack developer with a love for creating digital experiences that make a difference.
-            When I'm not coding, you'll find me exploring new technologies or listening to my favorite music.
+            I'm a passionate full-stack developer with 6+ years of experience building scalable, user-focused web and mobile applications. 
+            I specialize in turning complex requirements into clean, maintainable solutions that solve real problems. 
+            When I'm not coding, you'll find me exploring new technologies and staying current with industry trends.
           </p>
         </div>
 

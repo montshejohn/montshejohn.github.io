@@ -1,21 +1,26 @@
 export function Skills() {
   const skills = [
-    { name: "HTML5", level: 95 },
-    { name: "CSS3", level: 90 },
-    { name: "JavaScript", level: 85 },
-    { name: "React", level: 80 },
-    { name: "Node.js", level: 75 },
-    { name: "Git", level: 85 },
-    { name: "Sass", level: 70 },
-    { name: "TypeScript", level: 75 }
+    { name: "React", level: 75 },
+    { name: "React Native", level: 70 },
+    { name: "TypeScript", level: 70 },
+    { name: "Node.js", level: 68 },
+    { name: "PostgreSQL", level: 65 },
+    { name: "JavaScript", level: 72 },
+    { name: "AWS", level: 45 },
+    { name: "DevOps", level: 45 },
+    { name: "Git", level: 70 },
+    { name: "HTML5/CSS3", level: 75 }
   ]
 
   const workflows = [
-    "Mobile-First, Responsive Design",
-    "Cross Browser Testing & Debugging", 
-    "Cross Functional Teams",
-    "Agile Development",
-    "Version Control & CI/CD"
+    "Full-Stack Development",
+    "Mobile App Development (iOS/Android)",
+    "Enterprise Platform Architecture",
+    "AWS Cloud Services & DevOps",
+    "Agile Development & Cross-Functional Teams",
+    "Database Design & Optimization",
+    "API Development & Integration",
+    "Version Control & CI/CD Pipelines"
   ]
 
   return (

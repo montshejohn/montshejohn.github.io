@@ -27,22 +27,22 @@ export function Projects() {
 
   const projects = [
     {
-      title: "Tic Tac Toe Game",
+      title: "Enterprise Mobile App",
       description:
-        "A classic Tic Tac Toe game built with React featuring an AI opponent, score tracking, and responsive design.",
-      image: "/tic-tac-toe-game.svg",
-      technologies: ["React", "JavaScript", "CSS3", "HTML5"],
-      github: "https://github.com/montshejohn/tic-tac-toe",
-      demo: "https://montshejohn.github.io/tic-tac-toe/",
+        "Cross-platform mobile application built with React Native, featuring real-time data synchronization, offline capabilities, and enterprise-grade security.",
+      image: "/portfolio-website.svg",
+      technologies: ["React Native", "TypeScript", "PostgreSQL", "Node.js", "AWS"],
+      github: "https://github.com/montshejohn/enterprise-mobile-app",
+      demo: "https://montshejohn.github.io/enterprise-mobile-demo/",
     },
     {
-      title: "Conway's Game of Life",
+      title: "Full-Stack E-commerce Platform",
       description:
-        "Interactive implementation of Conway's Game of Life cellular automaton with customizable patterns and controls.",
-      image: "/game-of-life-simulation.svg",
-      technologies: ["JavaScript", "HTML5", "Canvas API", "CSS3"],
-      github: "https://github.com/montshejohn/game-of-life",
-      demo: "https://montshejohn.github.io/game-of-life/",
+        "Scalable e-commerce platform with React frontend, Node.js backend, PostgreSQL database, and AWS cloud infrastructure.",
+      image: "/weather-dashboard.svg",
+      technologies: ["React", "Node.js", "PostgreSQL", "AWS", "TypeScript"],
+      github: "https://github.com/montshejohn/ecommerce-platform",
+      demo: "https://montshejohn.github.io/ecommerce-demo/",
     },
     {
       title: "Portfolio Website",
@@ -54,13 +54,13 @@ export function Projects() {
       demo: "https://montshejohn.github.io/",
     },
     {
-      title: "Weather Dashboard",
+      title: "API Integration Dashboard",
       description:
-        "Real-time weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-      image: "/weather-dashboard.svg",
-      technologies: ["React", "OpenWeather API", "Chart.js", "Geolocation API"],
-      github: "https://github.com/montshejohn/weather-dashboard",
-      demo: "https://montshejohn.github.io/weather-dashboard/",
+        "Real-time dashboard for monitoring API performance, built with React and Node.js, featuring PostgreSQL analytics and AWS deployment.",
+      image: "/game-of-life-simulation.svg",
+      technologies: ["React", "Node.js", "PostgreSQL", "AWS", "Chart.js"],
+      github: "https://github.com/montshejohn/api-dashboard",
+      demo: "https://montshejohn.github.io/api-dashboard/",
     },
   ]
 
